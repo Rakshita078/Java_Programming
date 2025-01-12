@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Exclude user-specific files
+.idea/workspace.xml
+
+*.iml
