@@ -1,4 +1,4 @@
-package interview.programs;
+package interview.programs.Strings;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,8 +22,8 @@ public class Anagram {
     }
 
     public static boolean anagramFunction(String str1, String str2){
-        String s1 = str1.replaceAll("[^a-zA-Z]","").replaceAll("\\s","").toLowerCase().trim();
-        String s2 = str2.replaceAll("[^a-zA-Z]","").replaceAll("\\s","").toLowerCase().trim();
+        String s1 = str1.replaceAll("\\s","").toLowerCase().trim();
+        String s2 = str2.replaceAll("\\s","").toLowerCase().trim();
 
         if(s1.length() != s2.length()){
             return false;

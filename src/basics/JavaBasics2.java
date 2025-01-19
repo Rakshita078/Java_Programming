@@ -8,6 +8,7 @@ public class JavaBasics2 {
     static int j;
     static final int k = 5;
     final int l;
+    static String str = "Hello";
 
     public JavaBasics2(){
         l = 10; // another way of initializing final variable
@@ -29,6 +30,7 @@ public class JavaBasics2 {
        staticMethod(); // Call static method from different class
         JavaBasics javaBasics = new JavaBasics();
         System.out.println(javaBasics.initializeVariable()); // Call non static method from different class
+        stringChecker();
     }
 
     public void initialize(){
@@ -38,5 +40,21 @@ public class JavaBasics2 {
     public static void staticFunction(){
         j = 2;
         System.out.println(j);
+    }
+
+    public static void stringChecker(){
+       str =  str.concat("World!");
+       System.out.println(str);
+        str =  str.toUpperCase();
+        System.out.println(str);
+        str =  str.substring(5);
+        System.out.println(str);
+        boolean flag = str.equalsIgnoreCase("World!");
+        System.out.println(flag);
+        String s = "565";
+        int i = Integer.parseInt(s);
+        System.out.println(i);
+        String s1 = String.valueOf(i);
+        System.out.println(s1);
     }
 }
