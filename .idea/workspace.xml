@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c044546e-ed2d-46b0-93e6-ca1e3014d334" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/ControlStatements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/Inheritance/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/Inheritance/SubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/Inheritance/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/AccessModifiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/Encapsulation/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oops/Encapsulation/MyPrivateClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/JavaBasics2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/JavaBasics2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/Inheritance/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oops/Inheritance/MyClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     "Application.MyClass.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.oops.Encapsulation.MyClass.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -69,20 +71,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyClass">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.programs.Sorting.BubbleSort" />
-      <module name="Java Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.programs.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.oops.Encapsulation.MyClass">
     <configuration name="ControlStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.ControlStatements" />
       <module name="Java Programming" />
@@ -135,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="oops.Encapsulation.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.Encapsulation.MyClass" />
+      <module name="Java Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.Encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oops.Encapsulation.MyClass" />
+        <item itemvalue="Application.JavaBasics2" />
         <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.ControlStatements" />
-        <item itemvalue="Application.JavaBasics2" />
         <item itemvalue="Application.MatchingExample" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>

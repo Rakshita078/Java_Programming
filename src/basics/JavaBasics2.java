@@ -31,6 +31,10 @@ public class JavaBasics2 {
         JavaBasics javaBasics = new JavaBasics();
         System.out.println(javaBasics.initializeVariable()); // Call non static method from different class
         stringChecker();
+
+        AccessModifiers accessModifiers = new AccessModifiers();
+        accessModifiers.myMethod();
+        accessModifiers.myMethod1();
     }
 
     public void initialize(){

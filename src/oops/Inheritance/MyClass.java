@@ -1,6 +1,8 @@
 package oops.Inheritance;
 
-public class MyClass {
+import basics.AccessModifiers;
+
+public class MyClass extends AccessModifiers {
 
     public static void main(String[] args){
         SubClass subClass = new SubClass("constructor string from myclass");
@@ -9,5 +11,7 @@ public class MyClass {
         subClass.subClassMethod();
         subClass.printCommonString();
         subClass.printCommonMethod();
+        myMethod1();
     }
+
 }
