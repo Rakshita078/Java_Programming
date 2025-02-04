@@ -2,7 +2,7 @@ package basics;
 
 import static basics.JavaBasics.staticMethod;
 
-public class JavaBasics2 {
+public class JavaBasics2 extends Exception{
 
     int i;
     static int j;
@@ -60,5 +60,9 @@ public class JavaBasics2 {
         System.out.println(i);
         String s1 = String.valueOf(i);
         System.out.println(s1);
+    }
+
+    public void printException(){
+        System.out.println("user defined exception");
     }
 }
