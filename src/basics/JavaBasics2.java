@@ -35,6 +35,7 @@ public class JavaBasics2 extends Exception{
         AccessModifiers accessModifiers = new AccessModifiers();
         accessModifiers.myMethod();
         accessModifiers.myMethod1();
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 
     public void initialize(){
